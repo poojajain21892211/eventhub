@@ -1,4 +1,4 @@
-<img width="1072" height="906" alt="reservation cancelled" src="https://github.com/user-attachments/assets/88f65f74-ed75-4688-a697-8a9c6cde56f2" /># EventHub - Event Ticketing REST API
+# EventHub - Event Ticketing REST API
 
 EventHub is a backend REST API for a simplified event ticketing platform, built with Django and Django REST Framework.
 
