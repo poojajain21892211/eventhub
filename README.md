@@ -1,4 +1,4 @@
-# EventHub - Event Ticketing REST API
+<img width="1072" height="906" alt="reservation cancelled" src="https://github.com/user-attachments/assets/88f65f74-ed75-4688-a697-8a9c6cde56f2" /># EventHub - Event Ticketing REST API
 
 EventHub is a backend REST API for a simplified event ticketing platform, built with Django and Django REST Framework.
 
@@ -423,19 +423,20 @@ Postman was used to verify the required end-to-end HTTP scenarios:
 
 ### Successful Reservation - 201 Created
 
-<!-- Insert successful-reservation Postman screenshot here -->
+<img width="1072" height="906" alt="reservation created" src="https://github.com/user-attachments/assets/362b2360-9fd0-4519-b667-00f006285d93" />
+
 
 A confirmed Reservation is created and its reserved seats are deducted from the associated Event.
 
 ### Overbooking Protection - 400 Bad Request
 
-<!-- Insert overbooking-failure Postman screenshot here -->
+<img width="1081" height="903" alt="reservation overbooked error" src="https://github.com/user-attachments/assets/1a97dcad-1127-4739-99ba-c099c10dfbc5" />
 
 The request is rejected because the requested seat quantity is greater than the Event's remaining capacity. The failed request does not create a Reservation or change seat availability.
 
 ### Successful Cancellation - 200 OK
 
-<!-- Insert successful-cancellation Postman screenshot here -->
+<img width="1072" height="906" alt="reservation cancelled" src="https://github.com/user-attachments/assets/66585e91-52fb-4063-9953-4b9828f18bed" />
 
 The Reservation status changes to `cancelled`, and its reserved seats are restored to the Event.
 
